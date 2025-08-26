@@ -24,7 +24,7 @@ checkboxes.forEach(function(checkbox) {
 function kirimKeWhatsApp() {
     var checkboxes = document.querySelectorAll('input[type=checkbox]:checked');
     var pesan = "Pesanan :\n";
-    var nomerku = 6282184117257
+    var nomerku = // Masukkan nomor WhatsApp Anda di sini, contoh: 62888888888
 
     checkboxes.forEach(function(checkbox) {
         var label = checkbox.parentNode.querySelector('span').innerText;
